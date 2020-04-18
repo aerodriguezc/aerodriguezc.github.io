@@ -42,7 +42,7 @@
         </div>
         
         <!--Cards-->
-        <section id="idSectionCards" style="display:display;" class="container text-center">
+        <section id="idSectionCards" style="display:none;" class="container text-center">
             <div class="row d-flex align-items-stretch">
                 <div class="col d-flex">
                     <div class="card align-content-center flex-fill">
@@ -99,9 +99,6 @@
                     </div>
                 </div>
             </div>
-        </section>
-        
-        <section>
             <div class="text-center"> 
                 <p class="lead">
                     Gracias por todos los bonitos momentos que me has hecho vivir, mi amor. Gracias por todo el amor que me has dado. <br>
@@ -110,13 +107,15 @@
                 </p>
             </div>
         </section>
+        
+            
 
         <!--Botton to show slides section-->
         <div class="row justify-content-center my-5">
             <button type="button" class="btn btn-primary animated infinite heartBeat" onclick="Show('idSlidesSection')">Porque recordar es volver a vivir...</button>
         </div>
         <!--Slides-->
-        <section id="idSlidesSection" style="display: display;">
+        <section id="idSlidesSection" style="display: none;">
 
             <div class="container">
                 <p class="lead text-center">
@@ -165,21 +164,20 @@
 
         <!--Botton to show slides section-->
         <div class="row justify-content-center my-5">
-            <button type="button" class="btn btn-primary animated infinite heartBeat">Quieres ver nuestro álbum?</button>
+            <button type="button" class="btn btn-primary animated infinite heartBeat " onclick="Show('idAlbumSection')" >Quieres ver nuestro álbum?</button>
         </div>
 
-        <section>
+            
+
+        <section id="idAlbumSection" style="display: none;">
             <div class="container">
                 <p class="lead text-center">
-                    Nada que valga la pena es fácil y lo nuestro nunca ha sido fácil, mi amor. Hemos atrabesado muchas etapas, muchas situaciones
+                    Nada que valga la pena es fácil y lo nuestro nunca ha sido fácil, mi amor. Hemos atravesado muchas etapas, muchas situaciones
                     y todas las hemos superado. <br>
                     No puedo esperar al momento en el que nos miremos a los ojos, nos abracemos y nos digamos al oido: "Valió la pena" <br>
 
                 </p>
             </div>
-        </section>
-
-        <section>
             <!-- Page Content -->
             <div class="container">
 
@@ -216,7 +214,7 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
                     <a href="#" class="d-block mb-4 h-100">
-                        <img class="img-fluid img-thumbnail" src="/Resources/Helado.jpg" alt="">
+                        <img class="img-fluid img-thumbnail" src="/Resources/Xma.jpg" alt="">
                         </a>
                 </div>
                 <div class="col-lg-3 col-md-4 col-6">
@@ -257,10 +255,10 @@
 
         <!--Botton to show slides section-->
         <div class="row justify-content-center my-5">
-            <button type="button" class="btn btn-primary animated infinite heartBeat">Quieres saber porque Te amo tanto?</button>
+            <button type="button" class="btn btn-primary animated infinite heartBeat" onclick="Show('idRazones')">Quieres saber porque Te amo tanto?</button>
         </div>
 
-        <section class="container">
+        <section id="idRazones" style="display: none;" class="container">
 
             <div class="row d-flex align-items-stretch">
                 <figure class="col-4 d-flex">
@@ -315,7 +313,7 @@
             </div>
 
             <div class="container">
-                <p class="lead">
+                <p class="lead text-center">
                     Mi amor. Te amo mucho, mi vida. <br>
                     De verdad he sido tan feliz. No hay mejor sitio para mi que estar entre tus brazos.
                 </p>
