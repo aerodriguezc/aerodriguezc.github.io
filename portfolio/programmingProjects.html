@@ -2,296 +2,387 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/portfolio/css/main.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/portfolio/css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/portfolio/css/lightbox.min.css">
 
-    <link rel="stylesheet" href="/portfolio/css/lightbox.min.css">
-
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Alfredo Rodriguez | Programming Projects</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <title>Alfredo Rodriguez | Programming Projects</title>
 </head>
 
 <body class="projects">
-    <div class="nav">
-        <ul>
-            <li><a href="/portfolio/index.html">Home</a></li>
-            <li><a href="/portfolio/about.html">Background</a></li>
-            <li class="dropdown">
-                <span  class="active" id="projects">Projects</span>
-                <!-- <a id="projects" href="">Projects</a> -->
-                <div id="boxContainer" class="hidden boxContainer">
-                    <a href="/portfolio/bimProjects.html">BIM Projects</a>
-                    <a href="/portfolio/programmingProjects.html">Programming Projects</a>
-                </div>
-            </li>
-        </ul>
+  <div class="nav">
+    <ul>
+      <li><a href="/portfolio/index.html">Home</a></li>
+      <li><a href="/portfolio/about.html">Background</a></li>
+      <li class="dropdown">
+        <span class="active" id="projects">Projects</span>
+        <!-- <a id="projects" href="">Projects</a> -->
+        <div id="boxContainer" class="hidden boxContainer">
+          <a href="/portfolio/bimProjects.html">BIM Projects</a>
+          <a href="/portfolio/programmingProjects.html">Programming Projects</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <section class="projectHeader">
+    <h1>Modelling Automation</h1>
+    <h1>Coordination</h1>
+    <h1>Data Analysis</h1>
+    <h1>Web Development</h1>
+    <h1>Database Oriented</h1>
+  </section>
+
+  <section class="myProjects">
+    <div class="projectContainer projectItemContainerBimdDataAnalysis">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis1.png">
+            <img src="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis1.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis2.png">
+            <img src="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis2.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis3.png">
+            <img src="/portfolio/images/ProgrammingProjects/DataAnalysis/DataAnalysis3.png" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>BIM Data Analysis</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Monitor the development of the models based on quantity take-offs</li>
+            <li>Analyze the information of the models by zone or by level</li>
+            <li>Assist planning department with information from the model</li>
+          </ul>
+        </div>
+      </div>
     </div>
 
-    <section class="projectHeader">
-        <h1>Modelling Automation</h1>
-        <h1>Coordination</h1>
-        <h1>Data Analysis</h1>
-        <h1>Web Development</h1>
-        <h1>Database Oriented</h1>
-    </section>
-    
-    <section class="myProjects">
-        <div class="projectContainer projectItemContainer1">
-            <div class="project">
-                <div class="images">
-                    <a href="/portfolio/images/Proximity/Proximity3D.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Proximity/Proximity3D.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/Proximity/MechEquipment.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Proximity/MechEquipment.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/Proximity/EquipmentPad.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Proximity/EquipmentPad.jpg" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Proximity</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Find elements closer to others and relate them by exchanging parameters values.</li>
-                        <li>Works in elements in the model and between local elements and linked models.</li>
-                        <li>Establish geometrical relationships between elements: Equipment pads above equipments, electrical equipments at the start and end of cable trays, 
-                            mechanical equipments at the start and end of pipes.</li>
-                        <li>It is a multimodel application which means you can select multiple models and this action will be performed in each of them automatically.</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="projectContainer projectItemContainerMultiActions">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/ProgrammingProjects/MultiActions/MultiActions.png">
+            <img src="/portfolio/images/ProgrammingProjects/MultiActions/MultiActions.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/MultiActions/ExportDWG.png">
+            <img src="/portfolio/images/ProgrammingProjects/MultiActions/ExportDWG.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/MultiActions/PlaceElementsByCoordinates.png">
+            <img src="/portfolio/images/ProgrammingProjects/MultiActions/PlaceElementsByCoordinates.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/MultiActions/ZoningAction.png">
+            <img src="/portfolio/images/ProgrammingProjects/MultiActions/ZoningAction.png" alt="">
+          </a>
         </div>
-
-        <div data-aos="fade-right" class="projectContainer projectItemContainer2">
-            <div class="project">
-                <div class="images">
-                    <a href="/portfolio/images/RevitDataReader/Form.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Form.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/RevitDataReader/Database.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Database.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/RevitDataReader/Model.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Model.jpg" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Revit Data Reader</h3>
-                    <ul>
-                        <li>Database driven and multimodel application to extract information from elements in Revit models</li>
-                        <li>Create tables in the database and define the parameters to be read for each element in the selected models.</li>
-                        <li>Centralize the information of all your models and display it in another application (descktop or web based).</li>
-                        <li>Store the information of the models and makes posible to relate it with other sources of information like contruction, procurement or engineering data.</li>
-                        <li>Create relationships betwwen BIM elements and documents</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="description projectItem-title">
+          <h3>MultiActions</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Find elements closer to others and relate them by exchanging parameters values.</li>
+            <li>Works in elements in the model and between local elements and linked models.</li>
+            <li>Establish geometrical relationships between elements: Equipment pads above equipments, electrical
+              equipments at the start and end of cable trays,
+              mechanical equipments at the start and end of pipes.</li>
+            <li>It is a multimodel application which means you can select multiple models and this action will be
+              performed in each of them automatically.</li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-        <div data-aos="fade-left" class="projectContainer projectItemContainer1">
-            <div class="project">
-                <div class="images">
-                    <a href="/portfolio/images/MCC Single Line Diagrams/App.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/App.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/MCC Single Line Diagrams/sldExample.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/MCC Single Line Diagrams/sldExample2.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample2.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/MCC Single Line Diagrams/sldExample3.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample3.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules2.jpg" alt="">
-                    </a>
-                    <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
-                        <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules3.jpg" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Revit Drawings Automation</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Automate the creation of drawings in Revit based on engineering information.</li>
-                        <li>This application creates certain types of drawings based on tables in a database (engineering data).</li>
-                        <li>Drawings based on detail items so each element or symbol has information (properties) in it.</li>
-                        <li>Drawings become a source of information, not only lines but countable and comparable elements with information.</li>
-                        <li>Accelerate the process of drawings creation and remove inconsistencies between drawings and engineering lists.</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="projectContainer projectItemContainerNavisworksSets">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/ProgrammingProjects/NavisworksSets/NavisApp_ByCategory.png">
+            <img src="/portfolio/images/ProgrammingProjects/NavisworksSets/NavisApp_ByCategory.png" alt="">
+          </a>
+          <a href="/portfolio/images/ProgrammingProjects/NavisworksSets/NavisApp_ByFamilies.png">
+            <img src="/portfolio/images/ProgrammingProjects/NavisworksSets/NavisApp_ByFamilies.png" alt="">
+          </a>
         </div>
-        
-
-        <div data-aos="fade-right" class="projectContainer projectItemContainer2">
-            <div class="project">
-                <div class="images">
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Organizer/Organizer.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Organizer/Organizer2.jpg" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Organizer</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Keep track of progress of design uploading the elements that should be in the model: <span class="green">Green</span> is in the model and 
-                            <span class="blue">Blue</span> if it is not.</li>
-                        <li>Organize information from the model by building, room, and hierarchy of elements (Mechanical Equipments, Electrical Equipments, isntruments).</li>
-                        <li>Centralize your information because is database based.</li>
-                        <li>Access information from the model in real time and export it to excel for deeper analysis.</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="description projectItem-title">
+          <h3>Navisworks Automatic Sets</h3>
+          <p>Features:</p>
+          <ul>
+            <li></li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-        <div data-aos="fade-left" class="projectContainer projectItemContainer1">
-            <div class="project">
-                <div class="images">
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl2.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl3.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl4.jpg" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Tekla Control Web App</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Web application that extract information from a Tekla model and store it in a database.</li>
-                        <li>Group the plates information by thickness.</li>
-                        <li>Group elements by type of profile and calculate the number of bars needed for fabrication.</li>
-                        <li>Calculate all the combination of plate sizes to buy in order to fabricate the structure.</li>
-                        <li>Allow to control the production of elements by changing the status of teh assemblies.</li>
-                        <li>Is web based so all the information can be accessed from anywhere in the world and shared in real time.</li>
-                    </ul>
-                </div>
-            </div>
+    <div class="projectContainer projectItemContainer1">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/Proximity/Proximity3D.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Proximity/Proximity3D.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/Proximity/MechEquipment.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Proximity/MechEquipment.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/Proximity/EquipmentPad.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Proximity/EquipmentPad.jpg" alt="">
+          </a>
         </div>
-
-        <div data-aos="fade-right" class="projectContainer projectItemContainer1">
-            <div class="project">
-                <div class="images">
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis2.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis3.jpg" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis4.png" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis5.png" alt="">
-                    </a>
-                    <a href="">
-                        <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis6.png" alt="">
-                    </a>
-                </div>
-                <div class="description projectItem-title">
-                    <h3>Spatial Analysis</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>This application clusters data from a Tekla model based on his position in the model.</li>
-                        <li>Clustering is a machine learning algorithm that discovers patterns and groups without human intervention.</li>
-                        <li>This can be used to group elements by fabrication sets and then by mountage sets.</li>
-                        <li>Sets are defined by the algorithm and then refined by the user.</li>
-                        <li>Sets can be defined by any property of the elements not only by their spatial position.</li>
-                    </ul>
-                </div>
-            </div>
+        <div class="description projectItem-title">
+          <h3>Proximity</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Find elements closer to others and relate them by exchanging parameters values.</li>
+            <li>Works in elements in the model and between local elements and linked models.</li>
+            <li>Establish geometrical relationships between elements: Equipment pads above equipments, electrical
+              equipments at the start and end of cable trays,
+              mechanical equipments at the start and end of pipes.</li>
+            <li>It is a multimodel application which means you can select multiple models and this action will be
+              performed in each of them automatically.</li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-        <div data-aos="fade-left" class="projectContainer projectItemContainer1">
-            <div class="project projectVideo">
-                    <!-- <a href="">
+    <div data-aos="fade-right" class="projectContainer projectItemContainer2">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/RevitDataReader/Form.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Form.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/RevitDataReader/Database.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Database.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/RevitDataReader/Model.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/RevitDataReader/Model.jpg" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>Revit Data Reader</h3>
+          <ul>
+            <li>Database driven and multimodel application to extract information from elements in Revit models</li>
+            <li>Create tables in the database and define the parameters to be read for each element in the selected
+              models.</li>
+            <li>Centralize the information of all your models and display it in another application (descktop or web
+              based).</li>
+            <li>Store the information of the models and makes posible to relate it with other sources of information
+              like contruction, procurement or engineering data.</li>
+            <li>Create relationships betwwen BIM elements and documents</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" class="projectContainer projectItemContainer1">
+      <div class="project">
+        <div class="images">
+          <a href="/portfolio/images/MCC Single Line Diagrams/App.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/App.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/MCC Single Line Diagrams/sldExample.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/MCC Single Line Diagrams/sldExample2.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample2.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/MCC Single Line Diagrams/sldExample3.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/MCC Single Line Diagrams/sldExample3.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules2.jpg" alt="">
+          </a>
+          <a href="/portfolio/images/Panel Schedules/Panel Schedules.jpg">
+            <img src="/portfolio/images/ProgrammingProjects/Panel Schedules/Panel Schedules3.jpg" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>Revit Drawings Automation</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Automate the creation of drawings in Revit based on engineering information.</li>
+            <li>This application creates certain types of drawings based on tables in a database (engineering data).
+            </li>
+            <li>Drawings based on detail items so each element or symbol has information (properties) in it.</li>
+            <li>Drawings become a source of information, not only lines but countable and comparable elements with
+              information.</li>
+            <li>Accelerate the process of drawings creation and remove inconsistencies between drawings and engineering
+              lists.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div data-aos="fade-right" class="projectContainer projectItemContainer2">
+      <div class="project">
+        <div class="images">
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Organizer/Organizer.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Organizer/Organizer2.jpg" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>Organizer</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Keep track of progress of design uploading the elements that should be in the model: <span
+                class="green">Green</span> is in the model and
+              <span class="blue">Blue</span> if it is not.
+            </li>
+            <li>Organize information from the model by building, room, and hierarchy of elements (Mechanical Equipments,
+              Electrical Equipments, isntruments).</li>
+            <li>Centralize your information because is database based.</li>
+            <li>Access information from the model in real time and export it to excel for deeper analysis.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" class="projectContainer projectItemContainer1">
+      <div class="project">
+        <div class="images">
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl2.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl3.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Tekla Control/TeklaControl4.jpg" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>Tekla Control Web App</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Web application that extract information from a Tekla model and store it in a database.</li>
+            <li>Group the plates information by thickness.</li>
+            <li>Group elements by type of profile and calculate the number of bars needed for fabrication.</li>
+            <li>Calculate all the combination of plate sizes to buy in order to fabricate the structure.</li>
+            <li>Allow to control the production of elements by changing the status of teh assemblies.</li>
+            <li>Is web based so all the information can be accessed from anywhere in the world and shared in real time.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-right" class="projectContainer projectItemContainer1">
+      <div class="project">
+        <div class="images">
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis2.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis3.jpg" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis4.png" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis5.png" alt="">
+          </a>
+          <a href="">
+            <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis6.png" alt="">
+          </a>
+        </div>
+        <div class="description projectItem-title">
+          <h3>Spatial Analysis</h3>
+          <p>Features:</p>
+          <ul>
+            <li>This application clusters data from a Tekla model based on his position in the model.</li>
+            <li>Clustering is a machine learning algorithm that discovers patterns and groups without human
+              intervention.</li>
+            <li>This can be used to group elements by fabrication sets and then by mountage sets.</li>
+            <li>Sets are defined by the algorithm and then refined by the user.</li>
+            <li>Sets can be defined by any property of the elements not only by their spatial position.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-left" class="projectContainer projectItemContainer1">
+      <div class="project projectVideo">
+        <!-- <a href="">
                         <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis.jpg" alt="">
                     </a> -->
-                <video controls src="/portfolio/images/ProgrammingProjects/CadAutomation/Macro.mp4"></video>
-                <div class="description projectItem-title">
-                    <h3>CAD Automation</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Extract information from autocad files.</li>
-                        <li>Write the information in a csv file for further analysis.</li>
-                        <li>Change text or modify thousands of drawings with just one click.</li>
-                    </ul>
-                </div>
-            </div>
+        <video controls src="/portfolio/images/ProgrammingProjects/CadAutomation/Macro.mp4"></video>
+        <div class="description projectItem-title">
+          <h3>CAD Automation</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Extract information from autocad files.</li>
+            <li>Write the information in a csv file for further analysis.</li>
+            <li>Change text or modify thousands of drawings with just one click.</li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-        <div data-aos="fade-right" class="projectContainer projectItemContainer1">
-            <div class="project projectVideo">
-                    <!-- <a href="">
+    <div data-aos="fade-right" class="projectContainer projectItemContainer1">
+      <div class="project projectVideo">
+        <!-- <a href="">
                         <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis.jpg" alt="">
                     </a> -->
-                <video controls src="/portfolio/images/ProgrammingProjects/Tekla Fabrication/Tekla Fabrication.mp4"></video>
-                <div class="description projectItem-title">
-                    <h3>Anchors Automation</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Automate the creation of anchors in the model.</li>
-                        <li>Length and reinforcement of the assembly depends of structural calculations.</li>
-                        <li>Increase efficiency of modelling.</li>
-                        <li>Modify or create elements with just on click.</li>
-                    </ul>
-                </div>
-            </div>
+        <video controls src="/portfolio/images/ProgrammingProjects/Tekla Fabrication/Tekla Fabrication.mp4"></video>
+        <div class="description projectItem-title">
+          <h3>Anchors Automation</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Automate the creation of anchors in the model.</li>
+            <li>Length and reinforcement of the assembly depends of structural calculations.</li>
+            <li>Increase efficiency of modelling.</li>
+            <li>Modify or create elements with just on click.</li>
+          </ul>
         </div>
-        
-        <div data-aos="fade-left" class="projectContainer projectItemContainer1">
-            <div class="project projectVideo">
-                    <!-- <a href="">
+      </div>
+    </div>
+
+    <div data-aos="fade-left" class="projectContainer projectItemContainer1">
+      <div class="project projectVideo">
+        <!-- <a href="">
                         <img src="/portfolio/images/ProgrammingProjects/Spatial Analyzis/SpatialAnalysis.jpg" alt="">
                     </a> -->
-                <video controls src="/portfolio/images/ProgrammingProjects/Tekla Fabrication/Automation Drawings.mp4"></video>
-                <div class="description projectItem-title">
-                    <h3>Drawings Automation</h3>
-                    <p>Features:</p>
-                    <ul>
-                        <li>Automate the edition of drawings in model.</li>
-                        <li>Edit or create hundreds of drawings with jus one click.</li>
-                    </ul>
-                </div>
-            </div>
+        <video controls src="/portfolio/images/ProgrammingProjects/Tekla Fabrication/Automation Drawings.mp4"></video>
+        <div class="description projectItem-title">
+          <h3>Drawings Automation</h3>
+          <p>Features:</p>
+          <ul>
+            <li>Automate the edition of drawings in model.</li>
+            <li>Edit or create hundreds of drawings with jus one click.</li>
+          </ul>
         </div>
+      </div>
+    </div>
 
-    </section>
+  </section>
 
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration:3000,
-            offset:300
-        });
-    </script>
-    <script src="/portfolio/js/lightbox-plus-jquery.min.js"></script>
-    <script src="/portfolio/js/lightbox.min.js"></script>
-    <script src="/portfolio/js/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      offset: 300
+    });
+  </script>
+  <script src="/portfolio/js/lightbox-plus-jquery.min.js"></script>
+  <script src="/portfolio/js/lightbox.min.js"></script>
+  <script src="/portfolio/js/script.js"></script>
 </body>
 
 </html>
