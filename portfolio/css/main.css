@@ -323,7 +323,7 @@ div.nav > ul > li > span:hover{
 }
 
 .skillsItem img{
-    width: auto;
+    width: 200px;
     max-height: 200px;
     transition: all 1s ease;
 }
